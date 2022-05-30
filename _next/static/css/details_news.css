@@ -1,0 +1,116 @@
+.main_detail_news
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.container_detail_news
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.media_detail_news .container_media_detail_news video
+{
+    border-radius: 6px;
+    width: 100%;
+}
+content
+{
+    display: block;
+    margin-top: 200px;
+}
+.title_detail_news
+{
+    font-family: Postoni, BodoniSvtyTwoITCTT-Book,georgia,serif;
+}
+.interactive_detail_news
+{
+    display: flex;
+    justify-content: space-around;
+    border: 2px dashed #f7961e;
+    margin-bottom: 20px;
+}
+.item_interactive_detail_news
+{
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+.icon_detail_news
+{
+    margin-right: 10px;
+}
+.avatar_commenter
+{
+    margin-right: 10px;
+}
+.avatar_commenter img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.item_comment
+{
+    background-color:#85c9e8 ;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    width: max-content;
+}
+.show_comment
+{
+    background-color: salmon;
+    width: 100%;
+    padding: 10px;
+}
+.comment_detail_news
+{
+    width: 100%;
+}
+.content_comment
+{
+
+}
+.interactive_comment
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    width: 60%;
+}
+.item_interactive_comment
+{
+    display: flex;
+
+}
+.item_interactive_comment .icon_news
+{
+    /* margin-right: 10px; */
+}
+.name_commenter
+{
+    font-weight: bolder;
+}
+.text_comment
+{
+    font-style: italic;
+}
+.content_detail_news
+{
+    padding: 10px;
+    font-style: italic;
+}
+.item_interactive_detail_news + .item_interactive_detail_news
+{
+    border-left: 2px solid #f7961e;
+}
+.item_interactive_detail_news
+{
+    padding-left: 10px;
+}

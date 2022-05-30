@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatimportantis-smallible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="_next/static/css/home + header.css">
+    <link rel="stylesheet" href="_next/static/css/news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>VKU_CLUBS</title>
+</head>
+
+<body>
+    <div class="Header_nav">
+        <div class="navbar-brand">
+            <!-- <a class="Header__logoschool" href="/Web VKU_Clubs/index.html"> -->
+            <!-- <img src="https://vku.udn.vn/uploads/no-image.png" alt="Logo VKU" class="Header__logoschool logo-png"> -->
+            <a href="index.html">
+                <h3 class="Header_Title"><span style="color: #c82032;">V</span><span
+                        style="color: #2a3f54;">K</span><span style="color: #f7961e;">U</span><span
+                        style="color: #c82032; ">CLUBS</span></span></h3>
+            </a>
+            <!-- </a> -->
+        </div>
+        <!-- <img src="https://vku.udn.vn/images/hinh1.jpg" alt="" class="banner"> -->
+        <!-- <div class="banner"></div> -->
+        <div class="toggle"></div>
+        <div class="list-menu">
+            <div class="menu-link">
+                <a href="news.html" class="menu-item">Hoạt động-Sự kiện</a>
+                <a href="" class="menu-item">F&Q</a>
+                <a href="" class="menu-item Header__btn-menu">Đăng nhập</a>
+            </div>
+        </div>
+        <div class="RouteProgressbar"></div>
+    </div>
+    <content>
+
+        <div class="main_news">
+            <div class="left_side_news">
+                <div class="filter_news">
+                    <div class="option_news">Mới nhất</div>
+                    <div class="option_news">Nổi bật nhất</div>
+                    <div class="option_news">
+                        <select name="" id="">
+                            <option value="">Tất cả hoạt động</option>
+                            <option value="">Sinh hoạt</option>
+                            <option value="">Cuộc thi</option>
+                            <option value="">Văn nghệ</option>
+                            <option value="">Khác</option>
+                        </select>
+                    </div>
+                    <div class="option_news">
+                        <select name="" id="">
+                            <option value="">Tất cả CLB</option>
+                            <option value="">Hand in hand</option>
+                            <option value="">CLB Bóng chuyền</option>
+                            <option value="">CLB Karate</option>
+                            <option value="">CLB Tuổi trẻ</option>
+                        </select>
+                    </div>
+                    <div class="option_news">
+                        <select name="" id="">
+                            <option value="0">Tất cả Loại</option>
+                            <option value="1">Video</option>
+                            <option value="2">Ảnh</option>
+                            <option value="3">Văn bản</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="container_news">
+                    <!-- <a href=""> -->
+                        <div class="media_news">
+                            <div class="container_media">
+                                <video src="https://scontent.xx.fbcdn.net/v/t39.25447-2/10000000_391788519625442_7746938292878839361_n.mp4?_nc_cat=103&vs=19e149b434f85954&_nc_vs=HBksFQAYJEdJQ1dtQURpRW9wZlZHUUJBRUVPNmhOVnA0SnJibWRqQUFBRhUAAsgBABUAGCRHRUJZdEJDTi1HOG9ObnNCQUNONXJ2NEtNRGhVYnJGcUFBQUYVAgLIAQBLBogScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcAAAmjP7Mwv3VrwMVAigCQzMYC3Z0c19wcmV2aWV3HBdAgmqTdLxqfxggZGFzaF92NF81c2VjZ29wX2hxMl9mcmFnXzJfdmlkZW8SABgYdmlkZW9zLnZ0cy5jYWxsYmFjay5wcm9kOBJWSURFT19WSUVXX1JFUVVFU1QbCogVb2VtX3RhcmdldF9lbmNvZGVfdGFnBm9lcF9oZBNvZW1fcmVxdWVzdF90aW1lX21zATAMb2VtX2NmZ19ydWxlB3VubXV0ZWQTb2VtX3JvaV9yZWFjaF9jb3VudAQzNzkxEW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQQMjEyNDk3MjE1MTAwMzg5MhJvZW1fdmlkZW9fYXNzZXRfaWQPNTQ3NzA4MzE2NzE5MTQyFW9lbV92aWRlb19yZXNvdXJjZV9pZA85NDkyNTYxNTkwNzYyMzAcb2VtX3NvdXJjZV92aWRlb19lbmNvZGluZ19pZA80MDE3Njg2MTE3OTk3MDIOdnRzX3JlcXVlc3RfaWQAJQIcACXEARsHiAFzBDk0MjgCY2QKMjAyMi0wNS0wOANyY2IEMzcwMANhcHAFVmlkZW8CY3QZQ09OVEFJTkVEX1BPU1RfQVRUQUNITUVOVBNvcmlnaW5hbF9kdXJhdGlvbl9zCjU4OS4zNTQ2NjcCdHMVcHJvZ3Jlc3NpdmVfZW5jb2RpbmdzAA%3D%3D&ccb=1-7&_nc_sid=e65b19&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ohc=oYI-JSjIacQAX-lKaHZ&_nc_ht=video.fdad1-1.fna&oh=00_AT88hVN1SSHUCnMq8GMH4rYODG0wF0DnGCwOLI5Wa5GLDg&oe=6298F217&_nc_rid=554711618041729" type="video/mp4" controls></video>
+                            </div>
+
+                        </div>
+                        <div class="list_info_news">
+                            <div class="item_info_news author">
+                                <div class="icon_news"><i class="fa-solid fa-pen-clip"></i></div>
+                                Admin
+                            </div>
+                            <div class="item_info_news time_post_news">
+                                <div class="icon_news"><i class="fas fa-clock"></i></div>
+                                2 Tháng 5 lúc 17:49
+                            </div>
+                        </div>
+                        <div class="title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 - 08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.</h3>
+                        </div>
+                        <div class="intro_news">
+                            <p>
+                                Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 - 08/05/2022)
+                                Hướng đến Gala 10 năm - 1 chặng đường Thiện nguyện.
+                                #GalaHIH
+                                #11thAnniversary
+                                #HandInHandVietHan
+                                #fromHIHwithlove #HIH
+                            </p>
+                        </div>
+                        <div class="interactive_news">
+                            
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fas fa-comment-alt"></i></div>
+                                50
+                            </div>
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fas fa-share"></i></div>
+                                50
+                            </div>
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fa-solid fa-thumbs-up"></i></div>
+                                50
+                            </div>
+
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fa-solid fa-eye"></i></div>
+                                50
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                </div>
+
+                <div class="container_news">
+                    <a href="">
+                        <div class="media_news">
+                            <div class="container_media">
+                                <img src="https://scontent-xsp1-3.xx.fbcdn.net/v/t39.30808-6/279845194_167074309047503_971529424562961759_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=LgeEJMB1nJ0AX87WxmF&tn=J4dfk3Opvi6mmgQV&_nc_ht=scontent-xsp1-3.xx&oh=00_AT-HtcTXMDphow0CUvsweZ-tNsTOmtAcrnA6S726w4M12A&oe=6297EC37"
+                                    alt="">
+                            </div>
+
+                        </div>
+                        <div class="list_info_news">
+                            <div class="item_info_news author">
+                                <div class="icon_news"><i class="fa-solid fa-pen-clip"></i></div>
+                                Admin
+                            </div>
+                            <div class="item_info_news time_post_news">
+                                <div class="icon_news"><i class="fas fa-clock"></i></div>
+                                2 Tháng 5 lúc 17:49
+                            </div>
+                        </div>
+                        <div class="title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 - 08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.</h3>
+                        </div>
+                        <div class="intro_news">
+                            <p>
+                                Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 - 08/05/2022)
+                                Hướng đến Gala 10 năm - 1 chặng đường Thiện nguyện.
+                                #GalaHIH
+                                #11thAnniversary
+                                #HandInHandVietHan
+                                #fromHIHwithlove #HIH
+
+                            </p>
+                        </div>
+                        <div class="interactive_news">
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fas fa-comment-alt"></i></div>
+                                50
+                            </div>
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fas fa-share"></i></div>
+                                50
+                            </div>
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fa-solid fa-thumbs-up"></i></div>
+                                50
+                            </div>
+
+                            <div class="item_interactive_news">
+                                <div class="icon_news"><i class="fa-solid fa-eye"></i></div>
+                                50
+                            </div>
+
+                            
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="right_side_news">
+                <div class="list_news">
+                    <div class="name_list">
+                        <h1>Hoạt động sự kiện nổi bật</h1>
+                    </div>
+                    <div class="item_news">
+                        <div class="rank_news">1</div>
+                        <div class="short_title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 -
+                                08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.
+                            </h3>
+                        </div>
+                        <div class="media_news">
+                            <div class="container_media">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item_news">
+                        <div class="rank_news">2</div>
+                        <div class="short_title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 -
+                                08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.</h3>
+                        </div>
+                        <div class="media_news">
+                            <div class="container_media">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list_news">
+                    <div class="name_list">
+                        <h1>Hand in hand</h1>
+                    </div>
+                    <div class="item_news">
+                        <div class="rank_news">1</div>
+                        <div class="short_title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 -
+                                08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.
+                            </h3>
+                        </div>
+                        <div class="media_news">
+                            <div class="container_media">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item_news">
+                        <div class="rank_news">2</div>
+                        <div class="short_title_news">
+                            <h3>Kỷ niệm 11 Năm thành lập nhóm Từ thiện Hand In Hand Việt - Hàn (08/05/2011 -
+                                08/05/2022)
+                                Hướng đên' Gala 10 năm - 1 chặng đường Thiện nguyện.</h3>
+                        </div>
+                        <div class="media_news">
+                            <div class="container_media">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+    <script src="js/header+option.js">
+
+    </script>
+</body>
+
+</html>

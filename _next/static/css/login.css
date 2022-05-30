@@ -1,0 +1,196 @@
+content
+{
+    margin-top: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+a
+{
+    text-decoration: none;
+}
+.main_login
+{
+    display: flex;
+    justify-content: center;
+}
+.container_login
+{
+    /* border: 1px solid black; */
+    padding: 0 20px;
+    border-top:4px solid #fdd26e ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid grey;
+    border-top:4px solid #fdd26e !important;
+    /* border-right: 2px  outset #223b73;
+    border-bottom: 2px  outset #223b73;
+    border-left: 2px  outset #223b73; */
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_login:hover
+{
+    transform: scaleX(1.05);
+    box-shadow: 1px 10px 20px 1px #fdd26e;
+}
+.title_login
+{
+    font-weight: 900;
+    font-size: 60px;
+    font-family : monospace;
+    text-align: center;
+    margin: 40px 0;
+}
+.label_login
+{
+    display: flex;
+    justify-content: space-between;
+}
+.label_login label
+{
+    text-transform: uppercase;
+}
+.label_login label, .label_login a, .link_create-acc a
+{
+    font-family: monospace;
+    color: black;
+    cursor: pointer;
+}
+.input_login input
+{
+    border-radius: 0;
+    border: 1px solid grey;
+}
+.input_login input,.part_login .btn_signIn
+{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+}
+.part_login .btn_signIn
+{
+    border-radius: 30px;
+    border: none;
+    background-color: #fdd26e;
+    cursor: pointer;
+    font-family: monospace;
+    transition: .3s;
+}
+.contain_login.sign_in .part_login
+{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contain_login.sign_up.part_login
+{
+
+    width: 40%;
+}
+.contain_submit .link_create-acc
+{
+    text-align: center;
+    margin-top:  10px;
+}
+.contain_login a
+{
+    transition: .3s;
+}
+.contain_login a:hover, .link_create-acc:hover a
+{
+    color: salmon;
+    font-size: smaller;
+}
+.contain_login .btn_signIn:hover
+{
+    background-color: #85c9e8;
+    color: white;
+}
+.contain_login
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.contain_login.sign_in
+{
+    flex-direction: column;
+    width: 100%;
+}
+.container_login.sign_in
+{
+    width: 30vw;
+}
+.container_login.sign_up
+{
+    width: 80vw;
+}
+.container_login.sign_up .part_login
+{
+    width: 40%;
+    margin-bottom: 20px;
+}
+.contain_login.sign_up
+{
+    width: 70vw;
+}
+@media(max-width:660px)
+{
+    .container_login.sign_in
+{
+    width: 80vw;
+}
+}
+@media(max-width:900px)
+{
+    .container_login.sign_in
+{
+    width: 80vw;
+}
+.contain_login.sign_in .part_login {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contain_login.sign_in {
+    width: 80%;
+}
+}
+@media(max-width:440px)
+{
+    .contain_login.sign_up
+{
+    width: 70vw!important;
+}
+.title_login {
+
+    font-size: 36px;
+}
+.contain_login a
+{
+    font-size: x-small
+}
+.part_login {
+    margin-bottom: 20px;
+}
+}
+@media (max-width:800px)
+{
+    .contain_login.sign_up .part_login {
+        /* margin-bottom: 20px; */
+        width: 70% !important;
+    }
+}
+@media (max-width:440px)
+{
+    .part_login {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+}
+.container_login .note
+{
+    text-align: center;
+}
